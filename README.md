@@ -14,6 +14,8 @@
 * Библиотека RedMadRobot/input-mask-android"
 * Библиотека tbuonomo/pager-dots-indicator
 
+Не успел вынести зависимости в buildSrc. В локальную базу данных (Room) сохраняю информацию только о туристах. 
+
 ## Экран «Отель»
 
 ![](https://github.com/sergek1/HotelApp/blob/main/screenshots/hotel.gif)

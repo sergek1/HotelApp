@@ -1,0 +1,10 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hotel_title">Отель</string>
+    <string name="go_to_room_button">К выбору номера</string>
+    <string name="about_hotel">Об отеле</string>
+    <string name="facilities">Удобства</string>
+    <string name="essentials">Самое необходимое</string>
+    <string name="what_included">Что включено</string>
+    <string name="what_not_included">Что не включено</string>
+</resources>

@@ -4,13 +4,15 @@ import android.app.Activity
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.example.booking.domain.model.Tourist
 import com.example.booking.domain.usecase.InsertTouristUseCase
 import com.example.hoteltest.databinding.ActivityMainBinding
-import com.example.hoteltest.util.NetworkUtils
+import com.example.hoteltest.utils.NetworkUtils
+//import com.example.hoteltest.util.NetworkUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -26,7 +28,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         checkInternet()
         addFirstTourist()
     }
